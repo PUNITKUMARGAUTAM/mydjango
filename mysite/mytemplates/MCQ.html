@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<style>
+td{
+width:20%;
+color:white;
+}
+
+.x{
+width:799px;
+
+background-color:red;
+text-align:center;
+}
+</style>
+<title>AKTU MCQ ENTERANCE PAPER </title>
+</head>
+
+<body>
+<form>
+<div class="x">
+<br>
+<center><h1>MCQ PAPER</h1>
+</center>
+
+QuestionNO:<input type="text" name="Qustno" value="{{data.Qustno}}"/>
+<br>
+<br>
+Question Name:<input type="text" name="Qustn" value="{{data.Qustn}}"/>
+<br>
+<br>
+{{data.OptA}}<input type="radio" name="opt" value="{{data.OptA}}"/>
+<br>
+{{data.optB}}<input type="radio" name="opt" value="{{data.optB}}"/>
+<br>
+{{data.OptC}}<input type="radio" name="opt" value="{{data.OptC}}"/>
+<br>
+{{data.OptD}}<input type="radio" name="opt" value="{{data.OptD}}"/>
+<br>
+<br>
+<input type="submit" value="submit">
+<input type="submit" value="Next Question">
+</form>
+</body>
+</html>
+
+

@@ -1,0 +1,7 @@
+accountno=int(request.GET["accountno"])
+        accountname=request.GET["accountname"]
+        accountid=int(request.GET["accountid"])
+        accounttype=request.GET["accounttype"]
+        accountbalance=int(request.GET["accountbalance"])
+        account=Account(accountno=accountno,accountname=accountname,accountid=accountid,accounttype=accounttype,accountbalance=accountbalance)
+        account.save()

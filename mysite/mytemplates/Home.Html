@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<style>
+td{
+width:20%;
+color:white;
+}
+
+.x{
+width:799px;
+margin-left:25%;
+background-color:yellow;>
+text-align:center;
+}
+</style>
+<title>Bank Registration</title>
+</head>
+
+<body background="Hawa-Mahal.jpg">
+<form>
+<div class="x">
+
+<br>
+<center><h1> Registration on UBI Bank</h1></center>
+<center><br>Account no:<input type="text" placeholder="Account no" name="Acno" value="{{data.Acno}}"></br>
+
+<br>Account Name<input type="text" placeholder="Account Name" name="Acname" value="{{data.Acname}}"></br>
+
+<br>Account Type<input type="text" placeholder="Account Type" name="Actype" value="{{data.Actype}}"></br>
+
+<br>Account Balance<input type="text" placeholder="Account Balance" name="Acbal" value="{{data.Acbal}}"></br>
+
+<br>Account Acmobileno<input type="text" placeholder="Account Acmobileno" name="Acmbno" value="{{data.Acbal}}"></br>
+
+<br>Account email<input type="text" placeholder="Account email" name="email" value="{{data.email}}"></center></br>
+<br>
+<br>
+<center><input type="submit" name="command" value="Register"></center>
+
+
+{{data.result}}
+</br>
+</div>
+</form>
+</body>
+
+
+</html>

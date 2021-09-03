@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<title>Add</title>
+</head>
+<body>
+<form>
+<center><h1>Account</h1>
+accountno:<input type="text" name="accountno"  value="{{data.accountno}}"/>
+accountname:<input type="text" name="accountname" value="{{data.accountname}}"/>
+accountid:<input type="text" name="accountid" value="{{data.accountid}}"/>
+accounttype:<input type="text" name="accounttype" value="{{data.accounttype}}"/>
+accountbalance:<input type="text" name="accountbalance" value="{{data.accountbalance}}"/>
+<br>
+<br>
+<input type="submit" name="command" value="Insert">
+<input type="submit" name="command" value="search">
+<input type="submit" name="command" value="Delete">
+<input type="submit" name="command" value="Update">
+{{data.result}}
+</center>
+</form>
+</body>
+</html>

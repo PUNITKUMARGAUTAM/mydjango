@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<style>
+td{
+width:20%;
+color:white;
+}
+
+.x{
+width:799px;
+
+background-color:red;
+text-align:center;
+}
+</style>
+<title>deposite Function</title>
+</head>
+
+<body>
+<form>
+<div class="x">
+
+<br>
+<center><h1> Deposite Amount</h1>
+<center>
+
+Acname:<input type="text"  name="Acname" value="{{data.Acname}}"/>
+Actype:<input type="text"  name="Actype" value="{{data.Actype}}"/>
+Acbal:<input type="text"  name="Acbal" value="{{data.Acbal}}"/>
+<br>
+<br>
+Acmbno:<input type="text"  name="Acmbno" value="{{data.Acmbno}}"/>
+email:<input type="text"  name="email" value="{{data.email}}"/>
+<br>
+<br>
+Acno:<input type="text"  name="Acno" value="{{data.Acno}}"></br>
+<br>
+<br>
+<input type="submit" name="command" value="search">
+
+{{data.result}}
+</br>ss
+</center>
+</form>
+<form>
+<center><h1> Deposite</h1>
+<br>
+Acno:<input type="text" name="Acno" value="{{data.Acno}}"/>
+deposite amount:<input type="text" name="amount" value="{{data.amount}}"/>
+<br>
+<br>
+<input type="submit" name="command" value="deposite"></center>
+<br>
+{{data.result}} 
+</div>
+</form>
+</body>
+
+
+</html>
